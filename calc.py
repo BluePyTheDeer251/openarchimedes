@@ -7,24 +7,26 @@ def process():
       part1 = input("First number: ")
       part2 = input("Second number: ")
       result = int(part1) + int(part2)
-      print("Result: " + result)
+      print(result)
   if calculating_type == 2:
       part1 = input("First number: ")
       part2 = input("Second number: ")
       result = int(part1) - int(part2)
-      print("Result: " + result)
+      print(result)
   if calculating_type == 3:
       part1 = input("First number: ")
       part2 = input("Second number: ")
       result = int(part1) * int(part2)
-      print("Result: " + result)
+      print(result)
 
   if calculating_type == 4:
       part1 = input("First number: ")
       part2 = input("Second number: ")
       result = int(part1) / int(part2)
-      print("Result: " + result)
+      print(result)
 
+process()
+      
 print("I am pretty basic.")
 
 
