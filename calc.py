@@ -4,7 +4,7 @@ print("Welcome to my calculator app (codename: archimedes)")
 def process():
 
 calculation = input("Type the problem here: ")
-total = bool(calculation)
+total = float(calculation)
 print(calculation)
 
 process()
